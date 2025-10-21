@@ -1,0 +1,37 @@
+;
+; Keian KTV-FSUSB2/V3
+; Keian KTV-FSMINI
+;
+[Version]
+Signature="$Windows NT$"
+Class=Media
+ClassGuid={4d36e96c-e325-11ce-bfc1-08002be10318}
+Provider=%AuthorName%
+DriverVer=10/01/2022,22.10.01.00
+
+[Manufacturer]
+%AuthorName%=FSUSB2V3_WinUSB,ntx86,ntamd64
+
+[FSUSB2V3_WinUSB.ntx86]
+%FSUSB2V3_WinUSB.DeviceDesc%=FSUSB2V3_WinUSB.DeviceInstall,USB\VID_0511&PID_0046
+
+[FSUSB2V3_WinUSB.ntamd64]
+%FSUSB2V3_WinUSB.DeviceDesc%=FSUSB2V3_WinUSB.DeviceInstall,USB\VID_0511&PID_0046
+
+[FSUSB2V3_WinUSB.DeviceInstall]
+Include=winusb.inf
+Needs=WINUSB.NT
+
+[FSUSB2V3_WinUSB.DeviceInstall.Services]
+Include=winusb.inf
+Needs=WINUSB.NT.Services
+
+[FSUSB2V3_WinUSB.DeviceInstall.HW]
+AddReg=FSUSB2V3_WinUSB.DeviceSetup.AddReg
+
+[FSUSB2V3_WinUSB.DeviceSetup.AddReg]
+HKR,,DeviceInterfaceGUIDs,0x00010000,"{77ed26ec-2783-7bba-a824-00bcad7acdb9}"
+
+[Strings]
+AuthorName="hendecarows"
+FSUSB2V3_WinUSB.DeviceDesc="Keian KTV-FSUSB2V3/FSMINI ISDB-T Receiver Device (WinUSB)"
