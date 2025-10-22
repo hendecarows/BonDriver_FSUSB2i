@@ -19,7 +19,7 @@ struct TMCC_data {
 	uint8_t mode[3];
 	uint8_t layer[3][4];
 };
-int it9175_readTMCC(const it9175_state, struct TMCC_data* const);
+int it9175_readTMCC(const it9175_state, void* const pData);
 
 int it9175_readStatistic(const it9175_state, uint8_t* const data);
 

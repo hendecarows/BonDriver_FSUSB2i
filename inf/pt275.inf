@@ -1,0 +1,36 @@
+;
+; MyGica PT275 WinUSB
+;
+[Version]
+Signature="$Windows NT$"
+Class=Media
+ClassGuid={4d36e96c-e325-11ce-bfc1-08002be10318}
+Provider=%AuthorName%
+DriverVer=10/01/2022,22.10.01.00
+
+[Manufacturer]
+%AuthorName%=PT275_WinUSB,ntx86,ntamd64
+
+[PT275_WinUSB.ntx86]
+%PT275_WinUSB.DeviceDesc%=PT275_WinUSB.DeviceInstall,USB\VID_048d&PID_E275
+
+[PT275_WinUSB.ntamd64]
+%PT275_WinUSB.DeviceDesc%=PT275_WinUSB.DeviceInstall,USB\VID_048d&PID_E275
+
+[PT275_WinUSB.DeviceInstall]
+Include=winusb.inf
+Needs=WINUSB.NT
+
+[PT275_WinUSB.DeviceInstall.Services]
+Include=winusb.inf
+Needs=WINUSB.NT.Services
+
+[PT275_WinUSB.DeviceInstall.HW]
+AddReg=PT275_WinUSB.DeviceSetup.AddReg
+
+[PT275_WinUSB.DeviceSetup.AddReg]
+HKR,,DeviceInterfaceGUIDs,0x00010000,"{77ed26ec-2783-7bba-a824-00bcad7acdb9}"
+
+[Strings]
+AuthorName="hendecarows"
+PT275_WinUSB.DeviceDesc="MyGica PT275 ISDB-T Receiver Device (WinUSB)"
