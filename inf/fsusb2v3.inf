@@ -1,6 +1,6 @@
 ;
-; Keian KTV-FSUSB2/V3
-; Keian KTV-FSMINI
+; KEIAN KTV-FSUSB2/V3
+; KEIAN KTV-FSMINI
 ;
 [Version]
 Signature="$Windows NT$"
@@ -34,4 +34,4 @@ HKR,,DeviceInterfaceGUIDs,0x00010000,"{77ed26ec-2783-7bba-a824-00bcad7acdb9}"
 
 [Strings]
 AuthorName="hendecarows"
-FSUSB2V3_WinUSB.DeviceDesc="Keian KTV-FSUSB2V3/FSMINI ISDB-T Receiver Device (WinUSB)"
+FSUSB2V3_WinUSB.DeviceDesc="KEIAN KTV-FSUSB2V3/FSMINI ISDB-T Receiver Device (WinUSB)"
