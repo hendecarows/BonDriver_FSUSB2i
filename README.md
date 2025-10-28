@@ -11,6 +11,7 @@ trinity19683氏が作成した[BonDriver_FSUSB2i][link_wiki]に以下の対応�
 | :----- | :------------- | :----: | :----: | :-------------------------- |
 | KEIAN  | [KTV-FSUSB2/V3][link_fsusb2v3] | 0x0511 | 0x0046 | 販売終了 S/N:K1212以降  |
 | KEIAN  | [KTV-FSMINI][link_fsmini]     | 0x0511 | 0x0046 | 販売終了                    |
+| MyGica | [PadTV][link_pt275]       | 0x048d | 0x9175 |                             |
 | MyGica | [PT275][link_pt275]       | 0x048d | 0xe275 |                             |
 
 ## インストール
@@ -45,6 +46,7 @@ trinity19683氏が作成した[BonDriver_FSUSB2i][link_wiki]に以下の対応�
 7. このドライバーソフトウェアをインストールします
 8. サウンド、ビデオ、およびゲーム コントロール
    * KEIAN KTV-FSUSB2V3/FSMINI ISDB-T Receiver Device (WinUSB)
+   * MyGica PadTV ISDB-T Receiver Device (WinUSB)
    * MyGica PT275 ISDB-T Receiver Device (WinUSB)
 
 ## ライセンス
