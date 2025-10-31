@@ -11,8 +11,8 @@ trinity19683氏が作成した[BonDriver_FSUSB2i][link_wiki]に以下の対応�
 | :----- | :------------- | :----: | :----: | :-------------------------- |
 | KEIAN  | [KTV-FSUSB2/V3][link_fsusb2v3] | 0x0511 | 0x0046 | 販売終了 S/N:K1212以降  |
 | KEIAN  | [KTV-FSMINI][link_fsmini]     | 0x0511 | 0x0046 | 販売終了                    |
-| MyGica | [PadTV][link_pt275]       | 0x048d | 0x9175 |                             |
-| MyGica | [PT275][link_pt275]       | 0x048d | 0xe275 |                             |
+| MyGica | [PT275][link_pt275]       | 0x048d | 0x9175 |                             |
+| MyGica | [PT275C][link_pt275c]       | 0x048d | 0xe275 |                             |
 
 ## インストール
 
@@ -39,15 +39,15 @@ trinity19683氏が作成した[BonDriver_FSUSB2i][link_wiki]に以下の対応�
 
 1. デバイスマネージャーを起動します
 2. ほかのデバイス
-3. ISDB-T 2045、ISDB-T USB Stickの右クリック
+3. ISDB-T 2045、不明なデバイス、ISDB-T USB Stick等の右クリック
 4. ドライバーの更新
 5. コンピューターを参照してドライバーを検索
 6. 参照ボタンからinfファイルのあるディレクトリを指定
 7. このドライバーソフトウェアをインストールします
 8. サウンド、ビデオ、およびゲーム コントロール
    * KEIAN KTV-FSUSB2V3/FSMINI ISDB-T Receiver Device (WinUSB)
-   * MyGica PadTV ISDB-T Receiver Device (WinUSB)
    * MyGica PT275 ISDB-T Receiver Device (WinUSB)
+   * MyGica PT275C ISDB-T Receiver Device (WinUSB)
 
 ## ライセンス
 
@@ -60,3 +60,4 @@ GNU General Public License Version 3.0
 [link_fsusb2v3]: https://www.keian.co.jp/archives/products/ktv-fsusb2v3
 [link_fsmini]: https://www.keian.co.jp/archives/products/ktv-fsmini
 [link_pt275]: https://www.mygica.com/product/isdbt-tuner/
+[link_pt275c]: https://shop.geniatech.com/product/pad-tuner/?wpam_id=2

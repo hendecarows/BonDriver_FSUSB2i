@@ -12,10 +12,10 @@ DriverVer=10/01/2022,22.10.01.00
 %AuthorName%=PT275_WinUSB,ntx86,ntamd64
 
 [PT275_WinUSB.ntx86]
-%PT275_WinUSB.DeviceDesc%=PT275_WinUSB.DeviceInstall,USB\VID_048d&PID_E275
+%PT275_WinUSB.DeviceDesc%=PT275_WinUSB.DeviceInstall,USB\VID_048d&PID_9175
 
 [PT275_WinUSB.ntamd64]
-%PT275_WinUSB.DeviceDesc%=PT275_WinUSB.DeviceInstall,USB\VID_048d&PID_E275
+%PT275_WinUSB.DeviceDesc%=PT275_WinUSB.DeviceInstall,USB\VID_048d&PID_9175
 
 [PT275_WinUSB.DeviceInstall]
 Include=winusb.inf
